@@ -5,5 +5,6 @@ public class DockerHelloWorld {
     Jedis jedis = new Jedis("redis");
     System.out.println("Hello world from Docker!");
     System.out.println("Server is running: " + jedis.ping());
+    System.out.println("Goodbye from Docker!");
   }
 }
